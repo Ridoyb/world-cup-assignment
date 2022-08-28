@@ -1,0 +1,245 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Main style */
+
+/* 1st section */
+
+.main-banner {
+    display: flex;
+    width: 1300px;
+    height: 600px;
+    background-color: black;
+    margin-left: 7%;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+/* Main banner left part */
+.banner-left {
+    width: 50%;
+}
+
+.Main-heading {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    width: 50%;
+    line-height: 60px;
+    margin-left: 18%;
+    margin-top: 100px;
+
+}
+
+.main-banner p {
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    width: 60%;
+
+    margin-left: 18%;
+}
+
+.main-banner-button {
+    background-color: tomato;
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 18%;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.main-banner-button:hover {
+    background-color: yellow;
+    color: black;
+}
+
+
+/* Main banner right part */
+
+.banner-image {
+    width: 580;
+    height: 100%;
+    transition: all linear 0.7s;
+
+}
+
+.img {
+    position: relative;
+    display: inline-block;
+}
+
+.hover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    margin-right: 25px;
+}
+
+.img:hover img {
+    opacity: 0;
+
+}
+
+.img:hover img.hover-image {
+    opacity: 1;
+}
+
+/* Section-2 styles */
+
+/* -- Button and blog part  */
+
+.Section-2 {
+    display: flex;
+    width: 1300px;
+    height: 600px;
+    margin-left: 7%;
+    margin-right: 0px;
+    margin-top: 100px;
+    row-gap: 50px;
+
+}
+
+/* Upcoming Match,All Group and Blog buttons  */
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    margin-right: 30px;
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.button {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    width: 80%;
+    margin-top: 25px;
+    margin-left: 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Blog Button  */
+
+.button-blog {
+    background-color: tomato;
+    color: white;
+    padding: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    width: 80%;
+    margin-top: 15px;
+    margin-left: 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Upcoming Matches list  */
+.Upcoming-matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+/* Single upcoming Match  */
+
+.Upcoming-match {
+    margin-right: 10px;
+    margin-bottom: 30px;
+    border: #dbd7d7 solid 1px;
+    width: 312px;
+    height: 245px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+
+}
+
+/* Upcoming match team flags */
+
+.team-flag {
+    display: flex;
+    margin-top: 35px;
+    margin-left: 5%;
+}
+
+.flag {
+    margin: 15px;
+}
+
+.team-name {
+    text-align: center;
+}
+
+.match-time {
+    text-align: center;
+}
+
+
+
+
+
+/*---------------
+ Section-2 End 
+ --------------- */
+
+/* Section-3 Footer  */
+.section-3 {
+    margin-top: 10em;
+    box-sizing: border-box;
+    background-color: rgba(22, 22, 22, 1);
+    height: 500px;
+
+}
+
+.section-3 h1 {
+    font-size: 40px;
+    padding-top: 105px;
+    color: white;
+    text-align: center;
+
+}
+
+hr {
+    color: #efeeee;
+    width: 80%;
+    height: 0px;
+}
+
+/* Footer link  */
+
+.footer-link {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 30px;
+}
+
+/* Social Icons */
+.social-icons {
+    text-align: center;
+}
+
+.fa-brands {
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+}
